@@ -50,12 +50,10 @@ public:
 
 int main()
 {
-
-    int choice1,Number1;
+    trainrecourd t1;
+    int choice1,Number1,choice;
     do
     {
-        int choice;
-        trainrecourd t1;
         cout << "\n--- Railway Reservation System Menu ---" << "\n";
         cout << "1. Add New Train Record \n";
         cout << "2. Display All Train Records \n";
@@ -87,7 +85,7 @@ int main()
         cout <<"Not AVailable Please Try Again!\n";
             break;
         }
-    } while (choice1 != 4);
+    } while (choice != 4);
 
     return 0;
 }

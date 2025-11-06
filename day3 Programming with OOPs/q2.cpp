@@ -47,26 +47,21 @@ int main(){
 
     customer cus1,cus2,cus3,cus4,cus5;
 
-    cus1.setter(101,"Arman",18,"ahmedabad",840198533,2015,"jio");
+    cus1.setter(101,"Arman",18,"ahmedabad",840198533,2015,"jio" "\n");
     cus1.getter();
-    cout<<"\n";
 
-
-    cus2.setter(102,"ayan",18,"ahmedabad",738302929,2016,"airtel");
+    cus2.setter(102,"ayan",18,"ahmedabad",738302929,2016,"airtel" "\n");
     cus2.getter();
-    cout<<"\n";
 
-    cus2.setter(103,"jainam",21,"ahmedabad",1826587621,2016,"jio");
+    cus2.setter(103,"jainam",21,"ahmedabad",1826587621,2016,"jio" "\n");
     cus2.getter();
-    cout<<"\n";
 
-    cus2.setter(104,"yuvraj",21,"ahmedabad",458961589,2016,"airtel");
+    cus2.setter(104,"yuvraj",21,"ahmedabad",458961589,2016,"airtel" "\n");
     cus2.getter();
-    cout<<"\n";
 
-    cus2.setter(105,"ovais",20,"ahmedabad",451658952,2016,"jio");
+    cus2.setter(105,"ovais",20,"ahmedabad",451658952,2016,"jio" "\n");
     cus2.getter();
-    cout<<"\n";
+
 
 
 

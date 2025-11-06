@@ -81,12 +81,18 @@ public:
         cout << "Interest Rate      : " << rate << endl;
     }
 
-    void interset(){
-        double interset=rate*(balance/100);
+    void intersetsaving()
+    {
+        double interset = rate * (balance / 100);
+        cout << "Saving Account Interest: " << interset;
+    }
+
+    void intersetfixed()
+    {
+        double interset = balance * rate * month / (month * 100);
+        cout << "Saving Account Interest: " << interset;
     }
 };
-
-
 
 int main()
 {
@@ -134,12 +140,16 @@ int main()
             b1.info();
             break;
 
-            case 8:
-            cout<<"Exiting Program. Thank you!";
+        case 7:
+        
+            break;
+
+        case 8:
+            cout << "Exiting Program. Thank you!";
             break;
 
         default:
-        cout<<"Invalid Your Number! Please Try Again..";
+            cout << "Invalid Your Number! Please Try Again..";
             break;
         }
 
